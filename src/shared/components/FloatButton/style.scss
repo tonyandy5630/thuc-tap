@@ -1,0 +1,63 @@
+$--single-float-button: 70px;
+
+@mixin right-side-border {
+    border-end-end-radius: 0px;
+    border-start-end-radius: 0px;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin float-button {
+    position: fixed;
+    right: 6px;
+    top: 230px;
+    border-start-start-radius: 8px;
+    padding: 0;
+    background: #2f2f41;
+    height: 100px;
+    width: 70px;
+    @include right-side-border;
+}
+
+.icon-container {
+    @include flex-center;
+}
+
+.single-float-button {
+    @include float-button;
+    .ant-float-btn-body {
+        background-color: transparent;
+        height: 100% !important;
+        width: 100% !important;
+        .ant-float-btn-description {
+            color: rgba(white, 0.7) !important;
+        }
+    }
+    .ant-float-btn-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100% !important;
+        svg {
+            color: #ff7506;
+        }
+    }
+}
+
+.group-float-button__container {
+    @include right-side-border;
+    @include float-button;
+    @include flex-center;
+    flex-direction: column;
+    height: calc($--single-float-button * 2.5);
+    padding: 0;
+    min-height: 200px !important;
+}
+
+.ant-float-btn-group-square-shadow .ant-float-btn-square {
+    padding: 0;
+}

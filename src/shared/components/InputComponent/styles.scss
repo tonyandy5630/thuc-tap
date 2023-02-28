@@ -1,0 +1,32 @@
+::-ms-input-placeholder {
+    color: #727288 !important;
+}
+
+.input {
+    background: #2b2b3f;
+    .ant-input-affix-wrapper {
+        background-color: #2b2b3f !important;
+        input {
+            background-color: transparent;
+            color: white;
+        }
+    }
+
+    .ant-input-affix-wrapper:focus {
+        border-color: #f0842b !important;
+    }
+
+    .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+        border-color: #ffac69 !important;
+    }
+}
+
+.ant-input-group .ant-input-group-addon {
+    background: #2b2b3f !important;
+}
+
+.ant-input-group-addon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

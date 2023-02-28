@@ -1,0 +1,8 @@
+@import "../styles/variable";
+@import "../styles/mixin";
+
+.home {
+    background-color: $background;
+    min-height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,22 @@
+.breadcrumb {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f5f5ff;
+    opacity: 0.8;
+    .ant-breadcrumb-separator {
+        color: #ffac69;
+    }
+    .ant-breadcrumb-link {
+        a {
+            color: #f5f5ff !important;
+            opacity: 0.95;
+        }
+
+        a:hover {
+            background-color: rgba(#55555a, 0.4);
+        }
+    }
+}

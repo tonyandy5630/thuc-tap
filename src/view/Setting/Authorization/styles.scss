@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-style: normal;
+}
+
+.title {
+    font-family: "Montserrat";
+    color: #e5e5e5 !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    line-height: 48px !important;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    // background-color: rgba(red, 0.3);
+    height: 32px;
+}
+
+.page-container {
+    padding-right: 50px;
+}
+
+.table.ant-table-container {
+    border-radius: 10px;
+    overflow: hidden;
+}

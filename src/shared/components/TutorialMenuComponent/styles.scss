@@ -1,0 +1,29 @@
+$--offset-x: 15px;
+
+.header-tutorial-menu {
+    background: #39394d;
+    height: 100%;
+    color: white !important;
+    padding: 10px $--offset-x;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.menu-tutorial {
+    width: 25%;
+    background: rgba(47, 47, 65, 0.7);
+    border-radius: 10px;
+    min-height: 550px;
+    .ant-list-header {
+        padding: 0 !important;
+        border-block-end: unset;
+    }
+
+    .ant-list-item {
+        padding: 6px 24px !important;
+    }
+}
+
+.menu-item-tutorial {
+    color: white !important;
+}

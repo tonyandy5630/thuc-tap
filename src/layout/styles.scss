@@ -1,0 +1,13 @@
+@import "../view/styles/variable";
+@import "../view/styles/mixin";
+
+.main-component__container {
+    background-color: $background;
+    width: 100%;
+}
+
+.main-component {
+    // padding: 4px;
+    background-color: transparent;
+    padding: 0 30px;
+}

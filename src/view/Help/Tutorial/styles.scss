@@ -1,0 +1,18 @@
+.tutorial-page-container {
+    display: flex;
+    justify-content: space-between;
+    height: 75%;
+    width: 100%;
+}
+
+.tutorial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 72%;
+    padding: 8px 5px;
+    text-align: center;
+    background: rgba(47, 47, 65, 0.7);
+    border-radius: 10px;
+    overflow: auto;
+}
